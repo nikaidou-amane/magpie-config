@@ -1,0 +1,254 @@
+{
+    "language": "",
+    "theme": 2,
+    "windowPos": {
+        "centerX": 1077.5,
+        "centerY": 824.0,
+        "width": 980.0000610351563,
+        "height": 690.2857666015625,
+        "maximized": true
+    },
+    "shortcuts": {
+        "scale": 2369,
+        "windowedModeScale": 3153,
+        "toolbar": 2372,
+        "takeScreenshot": 3155
+    },
+    "countdownSeconds": 3,
+    "developerMode": false,
+    "debugMode": false,
+    "benchmarkMode": false,
+    "disableTopmost": false,
+    "disableEffectCache": false,
+    "disableFontCache": false,
+    "saveEffectSources": false,
+    "warningsAreErrors": false,
+    "allowScalingMaximized": false,
+    "keepScreenOn": false,
+    "simulateExclusiveFullscreen": false,
+    "alwaysRunAsAdmin": false,
+    "showNotifyIcon": true,
+    "inlineParams": false,
+    "autoCheckForUpdates": true,
+    "checkForPreviewUpdates": false,
+    "updateCheckDate": 17934965988125841,
+    "duplicateFrameDetectionMode": 1,
+    "enableStatisticsForDynamicDetection": false,
+    "minFrameRate": 10.0,
+    "disableFP16": false,
+    "scalingModes": [
+        {
+            "name": "Lanczos",
+            "effects": [
+                {
+                    "name": "Lanczos",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "FSR",
+            "effects": [
+                {
+                    "name": "FSR\\FSR_EASU",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                },
+                {
+                    "name": "FSR\\FSR_RCAS",
+                    "parameters": {
+                        "sharpness": 0.8700000047683716
+                    }
+                }
+            ]
+        },
+        {
+            "name": "FSRCNNX",
+            "effects": [
+                {
+                    "name": "FSRCNNX\\FSRCNNX"
+                }
+            ]
+        },
+        {
+            "name": "ACNet",
+            "effects": [
+                {
+                    "name": "ACNet"
+                }
+            ]
+        },
+        {
+            "name": "Anime4K",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_Denoise_L"
+                }
+            ]
+        },
+        {
+            "name": "CRT-Geom",
+            "effects": [
+                {
+                    "name": "CRT\\CRT_Geom",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "parameters": {
+                        "monitorGamma": 2.200000047683716,
+                        "cornerSize": 0.0010000000474974513,
+                        "curvature": 0.0,
+                        "interlace": 0.0,
+                        "CRTGamma": 1.5
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Integer Scale 2x",
+            "effects": [
+                {
+                    "name": "Nearest",
+                    "scalingType": 0,
+                    "scale": {
+                        "x": 2.0,
+                        "y": 2.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "VN 720p->1440P (CuNNy-4x16-NVL->SMAA_Ultra)",
+            "effects": [
+                {
+                    "name": "CuNNy2\\CuNNy-4x16-NVL"
+                },
+                {
+                    "name": "SMAA\\SMAA_Ultra"
+                }
+            ]
+        },
+        {
+            "name": "VN 720p->1440P (Anime4K_Upscale_Denoise_VL->FXAA_Ultra)",
+            "effects": [
+                {
+                    "name": "Anime4K\\Anime4K_Upscale_Denoise_VL"
+                },
+                {
+                    "name": "FXAA\\FXAA_Ultra"
+                }
+            ]
+        },
+        {
+            "name": "VN 1080p->1440p (NIS)",
+            "effects": [
+                {
+                    "name": "NIS\\NIS",
+                    "scalingType": 1,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                }
+            ]
+        }
+    ],
+    "profiles": [
+        {
+            "scalingMode": 7,
+            "captureMethod": 0,
+            "multiMonitorUsage": 0,
+            "initialWindowedScaleFactor": 0,
+            "customInitialWindowedScaleFactor": 1.25,
+            "fullscreenInitialToolbarState": 2,
+            "windowedInitialToolbarState": 2,
+            "screenshotsDir": "",
+            "screenshotFilenameTemplate": "%WT:6%-%Y%%m%%D%-%H%%M%%S%",
+            "graphicsCardId": {
+                "idx": 0,
+                "vendorId": 4318,
+                "deviceId": 9634
+            },
+            "frameRateLimiterEnabled": true,
+            "maxFrameRate": 60.0,
+            "3DGameMode": false,
+            "captureTitleBar": false,
+            "adjustCursorSpeed": true,
+            "disableDirectFlip": false,
+            "cursorScaling": 2,
+            "customCursorScaling": 1.0,
+            "cursorInterpolationMode": 0,
+            "autoHideCursorEnabled": false,
+            "autoHideCursorDelay": 3.0,
+            "croppingEnabled": false,
+            "cropping": {
+                "left": 0.0,
+                "top": 0.0,
+                "right": 0.0,
+                "bottom": 0.0
+            },
+            "outputAlignment": 4
+        },
+        {
+            "name": "乙女の剣と秘めごとコンチェルト",
+            "packaged": false,
+            "pathRule": "D:\\vn\\乙女の剣と秘めごとコンチェルト\\AdvHD_CN.exe",
+            "classNameRule": "OtomenoKen",
+            "launcherPath": "",
+            "autoScale": 0,
+            "launchParameters": "",
+            "scalingMode": 7,
+            "captureMethod": 0,
+            "multiMonitorUsage": 0,
+            "initialWindowedScaleFactor": 0,
+            "customInitialWindowedScaleFactor": 1.25,
+            "fullscreenInitialToolbarState": 2,
+            "windowedInitialToolbarState": 2,
+            "screenshotsDir": "",
+            "screenshotFilenameTemplate": "%WT:6%-%Y%%m%%D%-%H%%M%%S%",
+            "graphicsCardId": {
+                "idx": 0,
+                "vendorId": 4318,
+                "deviceId": 9634
+            },
+            "frameRateLimiterEnabled": true,
+            "maxFrameRate": 60.0,
+            "3DGameMode": false,
+            "captureTitleBar": false,
+            "adjustCursorSpeed": true,
+            "disableDirectFlip": false,
+            "cursorScaling": 2,
+            "customCursorScaling": 1.0,
+            "cursorInterpolationMode": 0,
+            "autoHideCursorEnabled": false,
+            "autoHideCursorDelay": 3.0,
+            "croppingEnabled": false,
+            "cropping": {
+                "left": 0.0,
+                "top": 0.0,
+                "right": 0.0,
+                "bottom": 0.0
+            },
+            "outputAlignment": 4
+        }
+    ],
+    "overlay": {
+        "windows": {
+            "profiler": {
+                "hArea": 2,
+                "vArea": 2,
+                "hPos": 0.0,
+                "vPos": 0.0
+            }
+        }
+    }
+}
