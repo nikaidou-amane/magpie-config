@@ -2,11 +2,11 @@
     "language": "",
     "theme": 2,
     "windowPos": {
-        "centerX": 1077.5,
-        "centerY": 824.0,
-        "width": 980.0000610351563,
-        "height": 690.2857666015625,
-        "maximized": true
+        "centerX": 3135.0,
+        "centerY": 1370.5,
+        "width": 1010.0,
+        "height": 679.0,
+        "maximized": false
     },
     "shortcuts": {
         "scale": 2369,
@@ -31,7 +31,7 @@
     "inlineParams": false,
     "autoCheckForUpdates": true,
     "checkForPreviewUpdates": false,
-    "updateCheckDate": 17934965988125841,
+    "updateCheckDate": 17943989443008761,
     "duplicateFrameDetectionMode": 1,
     "enableStatisticsForDynamicDetection": false,
     "minFrameRate": 10.0,
@@ -138,26 +138,32 @@
             ]
         },
         {
-            "name": "VN 720p->1440P (Anime4K_Upscale_Denoise_VL->FXAA_Ultra)",
+            "name": "VN 720p->1440P (Anime4K_Upscale_Denoise_VL->SMAA_High)",
             "effects": [
                 {
                     "name": "Anime4K\\Anime4K_Upscale_Denoise_VL"
                 },
                 {
-                    "name": "FXAA\\FXAA_Ultra"
+                    "name": "SMAA\\SMAA_High"
                 }
             ]
         },
         {
-            "name": "VN 1080p->1440p (NIS)",
+            "name": "VN 1080p->1440p (FSR_EASU->FSR_RCAS->SMAA_Ultra)",
             "effects": [
                 {
-                    "name": "NIS\\NIS",
+                    "name": "FSR\\FSR_EASU",
                     "scalingType": 1,
                     "scale": {
                         "x": 1.0,
                         "y": 1.0
                     }
+                },
+                {
+                    "name": "FSR\\FSR_RCAS"
+                },
+                {
+                    "name": "SMAA\\SMAA_Ultra"
                 }
             ]
         }
@@ -207,6 +213,48 @@
             "autoScale": 0,
             "launchParameters": "",
             "scalingMode": 7,
+            "captureMethod": 0,
+            "multiMonitorUsage": 0,
+            "initialWindowedScaleFactor": 0,
+            "customInitialWindowedScaleFactor": 1.25,
+            "fullscreenInitialToolbarState": 2,
+            "windowedInitialToolbarState": 2,
+            "screenshotsDir": "",
+            "screenshotFilenameTemplate": "%WT:6%-%Y%%m%%D%-%H%%M%%S%",
+            "graphicsCardId": {
+                "idx": 0,
+                "vendorId": 4318,
+                "deviceId": 9634
+            },
+            "frameRateLimiterEnabled": true,
+            "maxFrameRate": 60.0,
+            "3DGameMode": false,
+            "captureTitleBar": false,
+            "adjustCursorSpeed": true,
+            "disableDirectFlip": false,
+            "cursorScaling": 2,
+            "customCursorScaling": 1.0,
+            "cursorInterpolationMode": 0,
+            "autoHideCursorEnabled": false,
+            "autoHideCursorDelay": 3.0,
+            "croppingEnabled": false,
+            "cropping": {
+                "left": 0.0,
+                "top": 0.0,
+                "right": 0.0,
+                "bottom": 0.0
+            },
+            "outputAlignment": 4
+        },
+        {
+            "name": "まほ×ろば -Witches spiritual home-",
+            "packaged": false,
+            "pathRule": "D:\\vn\\まほ×ろば -Witches spiritual home-\\mahoXroba.exe",
+            "classNameRule": "CucumberEngine",
+            "launcherPath": "",
+            "autoScale": 0,
+            "launchParameters": "",
+            "scalingMode": 9,
             "captureMethod": 0,
             "multiMonitorUsage": 0,
             "initialWindowedScaleFactor": 0,
